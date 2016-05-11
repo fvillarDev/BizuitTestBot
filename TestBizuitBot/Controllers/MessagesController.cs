@@ -12,6 +12,7 @@ using Newtonsoft.Json;
 namespace TestBizuitBot
 {
     [BotAuthentication("MyTelegramBot1", "b14a89fdac974b08a675b22cfe2148d6")]
+    [AllowAnonymous]
     public class MessagesController : ApiController
     {
         /// <summary>
